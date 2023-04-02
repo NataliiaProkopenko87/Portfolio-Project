@@ -10,11 +10,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:wght@500;700&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Red+Hat+Display&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="src/style.css" />
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -25,33 +24,34 @@
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
-
     <meta
       name="description"
-      content="About Nataliia. Nataliia is a front-end engineer, based in Poland."
+      content="Nataliia is a front-end engineer, based in Poland."
     />
-    <title>About Nataliia - Nataliia Prokopenko</title>
+    <title>Front-end developer - Nataliia Prokopenko</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between m-2">
-        <a href="/" title="Homepage" class="d-none d-md-block nav-title">
-          NATALIIA PROKOPENKO</a
-        >
+    <div class="page-wrapper">
+      
+    <div class="container-fluid">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage" class="d-none d-md-block nav-title"> NATALIIA PROKOPENKO</a>
         <ul>
           <li class="active"><a href="/" title="Homepage">Home</a></li>
           <li><a href="/about.html" title="About Nataliia">About</a></li>
           <li><a href="/work.html" title="Nataliia's work">Work</a></li>
           <li><a href="/contact.html" title="Contact Nataliia">Contact</a></li>
-        </ul>
+        </ul> 
       </nav>
+    </div> 
     </div>
-    <div class="content-container container">
+    
+    <div class="content-container container pt-5 pb-5">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
             <h1 class="mb-4">Hi, I'am Nataliia Prokopenko</h1>
-            <h2 class="mb-4">Frontend Developer, based in Poland.</h2>
+            <h2 class="mb-4">Front-end Developer, based in Poland.</h2>
             <p class="mb-5">
               I'm Ukrainian who lives in Wroclaw, Poland. I have started
               learning programming with
@@ -82,40 +82,45 @@
             <a href="" class="btn btn-branding">View all project</a>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 pt-5 text-center d-none d-lg-block">
           <img
-            src="images/Nataliia.jpg"
+            src="images/Nataliia3.jpg"
             alt="Photo of Nataliia"
             class="img-fluid about-img"
           />
         </div>
-      </div>
-      <!--row-->
+</div>
+    </div>
       <footer>
-        <div
-          class="contact-box d-flex justify-content-between d-none d-md-flex"
-        >
-          <div>
-            <h3>Work Inquiry</h3>
-            <p class="text-muted">
-              Let’s work together and i’ll help you by all my best
-            </p>
+        <div class="container-fluid">
+          <div class="row contact-me pt-4">
+            <div class="col ms-5 d-none d-lg-block text-center">
+            <h4>Nataliia Prokopenko</h4>
           </div>
-          <div>
-            <a
-              href="/contact.html"
-              class="btn btn-branding mt-3"
-              title="Contact Nataliia"
-              >Contact me</a
-            >
-          </div>
-        </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:nataliiaprokopenko@yahoo.com" class="email-link"
+          <div class="col text-center">
+            <a href="mailto:nataliiaprokopenko@yahoo.com" class="email-link"
             >nataliiaprokopenko@yahoo.com</a
           >
+          </div>
+          
+          <div class="col text-center">
+            <a
+            href="mailto:nataliiaprokopenko@yahoo.com" class="email-link"
+
+              title="Contact Nataliia"
+              >Contact me → </a
+            >
+          </div>
+            <hr />
+          </div>
+          <div class="row container-social-links pt-3">
+        <div class="col text-center d-none d-lg-block">
+          <p>
+            Let’s work together and I’ll help you by all my best
+          </p>
+          
         </div>
-        <div class="social-links d-flex justify-content-center mb-5">
+        <div class="col social-links d-flex justify-content-center mb-5">
           <a
             href="https://github.com/NataliiaProkopenko87"
             target="_blank"
@@ -126,17 +131,18 @@
             href="https://www.linkedin.com/in/nataliia-prokopenko-5440a8166/"
             target="_blank"
             title="Linkedin profile"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-          <a
+            ><i class="fab fa-linkedin-in"></i></a>
+            <a
             href="https://www.instagram.com/prokopenko8546/?hl=en"
             target="_blank"
             title="Instagram profile"
             ><i class="fab fa-instagram"></i
           ></a>
         </div>
-        <p class="text-center mt-4">
-          ✌️This project was coded Nataliia Prokopenko, and it is
+      </div>
+        <div class="d-flex justify-content-center headline">
+        <p class="text-center">
+          Coded by Nataliia Prokopenko |  It's
           <a
             href="https://github.com/NataliiaProkopenko87/Portfolio-Project"
             target="_blank"
@@ -144,6 +150,8 @@
             >open-sourced.</a
           >
         </p>
+      </div>
+        </div>
       </footer>
     </div>
     <!--container-->

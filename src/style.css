@@ -1,6 +1,5 @@
 :root {
   --primary-color: #f9f7fe;
-  --branding-color: #a6e4e7;
   --secondary-color: #3f3f3f;
   --btn-color:#E9E7DC;
   --font-family-color: #3f3f3f;
@@ -54,7 +53,6 @@ p {
 }
 nav {
   padding: 20px 0;
-
 }
 nav ul {
   margin: 0;
@@ -228,23 +226,28 @@ footer h4{
 
 
 /*footer END*/
-
-
-
-
-
-
+/*about page*/
 .content-container {
-  padding: 60px 20px;
+  padding: 100px 0px;
+}
+.my-link {
+  font-weight: bold;
+  color: var(--font-hover-color);
+  text-decoration: none;
 }
 .content h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 48px;
+  line-height: 70px;
+  color: var(--font-family-color);
+  opacity: 0.7;
 }
 .content h2 {
-  font-size: 18px;
-  line-height: 27px;
-  font-family: var(--default-font-family);
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 200;
+  opacity: 0.8;
+  font-family: var(--secondary-font-family);
+  text-transform: uppercase;
 }
 .content h3 {
   font-family: var(--default-font-family);
@@ -252,18 +255,27 @@ footer h4{
   line-height: 1.5;
 }
 .content p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 30px;
   font-family: var(--default-font-family);
-  color: rgba(39, 33, 66, 0.7);
+  color: var(--font-family-color)
 }
 
 .content {
   margin: 30px;
 }
 .about-img {
-  border-radius: 15px;
+  opacity: 0.8;
 }
+.my-link:hover {
+  color: var(--secondary-color);
+}
+.about-img {
+  max-width: 100%;
+}
+/*about page END*/
+
+
 .btn-branding {
   background: var(--btn-color);
   border-radius: 2px;
@@ -287,14 +299,7 @@ footer h4{
 .about-img {
   max-height: 70%;
 }
-.my-link {
-  font-weight: bold;
-  color: var(--branding-color);
-  text-decoration: none;
-}
-.my-link:hover {
-  color: var(--secondary-color);
-}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
@@ -305,17 +310,16 @@ footer h4{
   }
 
   .content-container {
+    padding: 20px;
     text-align: center;
-    padding: 0;
   }
   .content h1 {
-    font-size: 52px;
+    font-size: 36px;
   }
+  
   .project-description {
     padding: 0;
     text-align: center;
   }
-  .about-img {
-    max-height: 100%;
-  }
+  
 }
