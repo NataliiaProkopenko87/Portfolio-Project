@@ -273,6 +273,10 @@ footer h4{
 .about-img {
   max-width: 100%;
 }
+.about-img {
+  max-height: 70%;
+}
+
 /*about page END*/
 
 
@@ -290,15 +294,29 @@ footer h4{
   color:#E9E7DC;
   background: #3f3f3f;
 }
-
-
 .logo {
   max-height: 40px;
 }
-
-.about-img {
-  max-height: 70%;
+/*work page*/
+.work-page .img-fluid {
+  width: 50%;
 }
+.work-page .img-fluid:hover {
+  opacity:0.6;
+}
+.showmore {
+  font-family: var(--default-font-family);
+  color: var(--font-family-color);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.showmore:hover {
+  color: var(--font-hover-color);
+}
+.work-page .content-container {
+  padding-top: 100px;
+}
+/*work page END*/
 
 @media (max-width: 960px) {
   h1 {
