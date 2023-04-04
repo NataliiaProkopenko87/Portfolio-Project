@@ -341,6 +341,12 @@ footer h4{
 
 /*showmore page END*/
 
+/*contact page*/
+.contact-page .content-container {
+ 
+}
+/*contact page END*/
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
