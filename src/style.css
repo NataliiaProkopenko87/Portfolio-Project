@@ -312,11 +312,34 @@ footer h4{
 }
 .showmore:hover {
   color: var(--font-hover-color);
+  text-decoration: underline;
 }
+ 
 .work-page .content-container {
   padding-top: 100px;
 }
 /*work page END*/
+/*showmore page*/
+.showmore-page .btn-show {
+  color:var(--font-family-color);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.showmore-page .btn-show:hover {
+  color: var(--font-hover-color);
+}
+.showmore-page .img-fluid {
+  width: 70%;
+}
+.showmore-page .img-fluid:hover {
+  opacity: 0.6;
+}
+
+/*showmore page END*/
 
 @media (max-width: 960px) {
   h1 {
