@@ -343,8 +343,9 @@ footer h4{
 
 /*contact page*/
 .contact-page .content-container {
- 
+ margin-bottom: 0;
 }
+
 /*contact page END*/
 
 @media (max-width: 960px) {
